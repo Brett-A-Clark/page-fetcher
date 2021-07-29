@@ -19,7 +19,7 @@ request(url, (error, response, body) => {
         return
       }
 
-      console.log(`Downloaded and saved ${body.length} bytes to ${localFilePath}`);
+      console.log(`Downloaded and saved ${body.length} bytes to ${localFilePath}.`);
     });
   }
 });
